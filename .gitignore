@@ -1,0 +1,11 @@
+LICENSE
+Extensions/
+GridNode/
+Jenkins/
+logs/
+Projects/*/Results/*/
+web/
+recent.items
+log.txt
+Installation.md
+Engine/

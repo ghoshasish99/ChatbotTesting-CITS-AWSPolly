@@ -1,0 +1,11 @@
+<Root ref="Chatbot" type="RC">
+<Folder ref="NewGroup">
+<Scenario ref="Bot">
+<TestCase exeType="Executable" ref="Response"/>
+</Scenario>
+<Scenario ref="User">
+<TestCase exeType="Executable" ref="Text-Input"/>
+<TestCase exeType="Executable" ref="Voice-Input"/>
+</Scenario>
+</Folder>
+</Root>

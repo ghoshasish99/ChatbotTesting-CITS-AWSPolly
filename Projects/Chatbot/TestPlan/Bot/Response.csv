@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Wait for [<Data>] milli seconds,pause,@4000,,
+2,BotResponse,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,MobileWebChat:Index,"#index",Banking
+3,BotResponse,Assert if [<Object>] element is displayed,assertBotResponseContains,MobileWebChat:BotResponse,,Banking
