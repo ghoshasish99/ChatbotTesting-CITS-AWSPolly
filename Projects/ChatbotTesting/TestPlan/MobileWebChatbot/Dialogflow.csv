@@ -1,6 +1,0 @@
-Step,ObjectName,Description,Action,Input,Condition,Reference
-1,Browser,Open the Url [<Data>] in the Browser,Open,@https://console.dialogflow.com/api-client/demo/embedded/d388ac41-5c60-483f-b89b-0ec0d99d848d,,
-2,Browser,This an empty function to start a Data Loop.,StartDataLoop,,Start Param,
-3,Execute,,User:Voice-Input,,,
-4,Execute,,Bot:Response,,,
-5,Browser,This an empty function to end a Data Loop.,EndDataLoop,,End Param:@4,

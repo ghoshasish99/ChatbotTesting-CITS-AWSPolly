@@ -185,12 +185,12 @@ public class Basic extends General {
     public void filler() {
 
     }
-    @Action(object = ObjectType.BROWSER, desc = "This an empty function to start a Data Loop.")
-    public void StartDataLoop() {
+    @Action(object = ObjectType.BROWSER, desc = "Start Loop filler")
+    public void StartLoop() {
 
     }
-    @Action(object = ObjectType.BROWSER, desc = "This an empty function to end a Data Loop.")
-    public void EndDataLoop() {
+    @Action(object = ObjectType.BROWSER, desc = "End Loop filler")
+    public void EndLoop() {
 
     }
 

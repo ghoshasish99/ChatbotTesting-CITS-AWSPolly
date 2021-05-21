@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,App:SetUp,,,
+2,App,Generate Utterances with AWS Polly or Google,generateUtterance,AmazonMusic:UserInput,AmazonMusic,
+3,App,Validate Utterances with Azure,validateUtterance,AmazonMusic:BotResponse,,

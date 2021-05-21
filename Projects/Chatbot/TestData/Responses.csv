@@ -1,3 +1,4 @@
 Scenario,Flow,Iteration,SubIteration,Greetings,SmallTalks,BalanceInquiry
 MobileWebChatbot,Dialogflow,1,1,"Hello, thanks for choosing ACME Bank.","Doing great, thanks.",What account do you want the balance for: savings or checking?
 MobileWebChatbot,Dialogflow,1,2,Hello. Welcome to ACME Bank.,Wonderful! Thanks for asking.,Balance for which savings or checking?
+MobileWebChatbot,Dialogflow,1,3,,I'm doing very well. Thanks!,

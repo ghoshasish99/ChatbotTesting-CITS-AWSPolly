@@ -90,7 +90,7 @@
     } ]
   }, {
     "id" : "User#Voice-Input",
-    "name" : "Voice-Input",
+    "name" : "Speech-Input",
     "tags" : [ ],
     "attributes" : [ {
       "name" : "type",

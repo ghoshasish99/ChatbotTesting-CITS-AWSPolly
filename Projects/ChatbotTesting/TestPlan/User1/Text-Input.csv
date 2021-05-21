@@ -1,3 +1,0 @@
-Step,ObjectName,Description,Action,Input,Condition,Reference
-1,UserInput,"Click the [<Object>] ",Set,MobileWebChat:UserInput,,Banking
-2,Browser,Send Keys [<Data>]  to Window.,sendKeysToWindow,@Enter,,

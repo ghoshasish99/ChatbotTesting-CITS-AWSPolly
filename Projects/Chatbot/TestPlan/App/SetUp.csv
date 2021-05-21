@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,[Continue] Button,"Click the [<Object>] ",Click,,,AmazonMusic
+2,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+3,[Not Now] Button,"Click the [<Object>] ",Click,,,AmazonMusic
+4,[Auto Import No] Button,"Click the [<Object>] ",Click,,,AmazonMusic
+5,[Auto Import Confirmation] Button,"Click the [<Object>] ",Click,,,AmazonMusic
+6,[Alexa] Icon,"Click the [<Object>] ",Click,,,AmazonMusic
+7,[Allow Microphone Access] Button,"Click the [<Object>] ",Click,,,AmazonMusic
+8,[Allow] Button,"Click the [<Object>] ",Click,,,AmazonMusic

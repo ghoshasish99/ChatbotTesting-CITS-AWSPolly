@@ -26,6 +26,8 @@ import com.cognizant.cognizantits.engine.support.methodInf.ObjectType;
 import com.galenframework.specs.SpecText;
 import com.galenframework.specs.SpecText.Type;
 import java.util.Arrays;
+
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.support.ui.Select;
 
 /**
@@ -74,6 +76,7 @@ public class Text extends General {
 	}
 
 	/********************************/
+	@SuppressWarnings("deprecation")
 	@Action(object = ObjectType.SELENIUM, desc = "Assert if [<Object>]'s Text Contains [<Data>]", input = InputType.YES)
 	public void assertBotResponseContains() {
 		if (Data.matches("(.*):(.*)")) {
@@ -87,17 +90,34 @@ public class Text extends General {
 			for (int row = 0; row < tdModel.getRowCount(); row++)
 			{
 				String expectedResponse = tdModel.getValueAt(row, valueindex).toString().trim();
-				if (Element.getText().contains(expectedResponse)) {
+				double difference = StringUtils.getJaroWinklerDistance(Element.getText(), expectedResponse);
+				if (difference > 0.65) {
+				//if (Element.getText().contains(expectedResponse)) {
 					Report.updateTestLog(Action, "Bot Response matches : [" + expectedResponse + "]", Status.PASS);
+					System.out.println("Difference : "+difference);
 					count++;
 					break;
 				}
+				else
+				{
+					System.out.println("Expected Response "+expectedResponse+ " : "+ difference);
+				}
 			}
 			if (count == 0)
-				Report.updateTestLog(Action, "Bot Response did not match any of the expected response", Status.FAIL);
+				Report.updateTestLog(Action, "Bot Response ["+Element.getText()+"] did not match any of the expected response", Status.FAIL);
 
-		} else
-			assertElementText(Type.CONTAINS);
+		} else {
+			double difference = StringUtils.getJaroWinklerDistance(Element.getText(), Data);
+			if (difference > 0.65) {
+					Report.updateTestLog(Action, "Bot Response ["+Element.getText()+"] matches : [" + Data + "]", Status.PASS);
+					System.out.println("Difference : "+difference);
+			}
+			else {
+				Report.updateTestLog(Action, "Bot Response ["+Element.getText()+"] did not match the expected response", Status.FAIL);
+			    System.out.println("Difference : "+difference);
+			}
+		}
+			//assertElementText(Type.CONTAINS);
 	}
 
 	/********************************/

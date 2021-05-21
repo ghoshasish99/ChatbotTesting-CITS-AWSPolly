@@ -1,1 +1,74 @@
-<Root type="MOR" ref="Chatbot"/>
+<Root type="MOR" ref="Chatbot">
+  <Page packageName="" ref="AmazonMusic">
+    <ObjectGroup ref="[Continue] Button">
+      <Object ref="[Continue] Button">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.amazon.mp3:id/ContinueButton" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[Not Now] Button">
+      <Object ref="[Not Now] Button">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.amazon.mp3:id/btn_wakeword_ftu_negative" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[Auto Import No] Button">
+      <Object ref="[Auto Import No] Button">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.Button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[Auto Import Confirmation] Button">
+      <Object ref="[Auto Import Confirmation] Button">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.amazon.mp3:id/confirm_button" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[Alexa] Icon">
+      <Object ref="[Alexa] Icon">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.amazon.mp3:id/tab_bar_image_four" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[Allow Microphone Access] Button">
+      <Object ref="[Allow Microphone Access] Button">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.amazon.mp3:id/btn_positive_tou" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[Allow] Button">
+      <Object ref="[Allow] Button">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.packageinstaller:id/permission_allow_button" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

@@ -343,9 +343,11 @@ public class WebDriverFactory {
         try {
         	/***********     isAppiumChrome(url, caps.asMap()   ********/ 
             if (isAppiumNative(url, caps.asMap()) || isAppiumChrome(url, caps.asMap())) {
+            	if(isAppiumChrome(url, caps.asMap())) {
             	ChromeOptions chromeOptions = new ChromeOptions();
             	chromeOptions.setExperimentalOption("w3c", false);
             	caps.merge(chromeOptions);
+            	}
                 if (isAndroidNative(caps.asMap())) {
                     return new io.appium.java_client.android.AndroidDriver(new URL(url), caps);
                 } else if (isIOSNative(caps.asMap())) {

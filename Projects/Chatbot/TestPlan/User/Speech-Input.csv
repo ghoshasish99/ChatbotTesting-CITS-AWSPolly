@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,mic,"Click the [<Object>] ",Click,,,Banking
+2,Browser,Send Keys [<Data>]  to Window.,allowAudioRecording,MobileWebChat:SpeechInitiation,,
+3,App,Generate Utterances with AWS Polly,generateUtterance,MobileWebChat:UserInput,MobileWebChat,

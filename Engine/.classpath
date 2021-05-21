@@ -146,11 +146,55 @@
 	<classpathentry kind="lib" path="../lib/xmlbeans-3.0.2.jar"/>
 	<classpathentry kind="lib" path="../lib/xmlgraphics-commons-1.4.jar"/>
 	<classpathentry kind="lib" path="../lib/zfj-cloud-rest-client-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/animal-sniffer-annotations-1.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/annotations-4.1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/api-common-1.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/auto-value-annotations-1.8.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/aws-java-sdk-core-1.11.77.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/aws-java-sdk-polly-1.11.77.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/checker-compat-qual-2.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/error_prone_annotations-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/gax-1.64.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/gax-grpc-1.64.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/google-auth-library-credentials-0.25.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/google-auth-library-oauth2-http-0.25.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/google-cloud-texttospeech-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/google-http-client-1.39.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/google-http-client-gson-1.39.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-alts-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-api-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-auth-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-context-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-core-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-grpclb-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-netty-shaded-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-protobuf-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-protobuf-lite-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/grpc-stub-1.37.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/guava-30.1.1-android.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/httpcore-4.4.14.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/ion-java-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/javax.annotation-api-1.3.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/jlayer-1.0.1-1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/jmespath-java-1.11.77.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/joda-time-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/opencensus-api-0.28.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/opencensus-contrib-http-util-0.28.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/perfmark-api-0.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/protobuf-java-3.16.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/protobuf-java-util-3.16.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/proto-google-cloud-texttospeech-v1-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/proto-google-cloud-texttospeech-v1beta1-0.87.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/proto-google-common-protos-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/threetenbp-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LA56QS/MyDevelopmentWorkspace/CITS-1.4/lib/clib/client-sdk-1.12.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

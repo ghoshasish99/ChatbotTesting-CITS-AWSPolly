@@ -1,5 +1,0 @@
-Scenario,Flow,Iteration,SubIteration,UserInput,BotResponse,Index,VoiceInitiation
-MobileWebChatbot,Dialogflow,1,1,Hi,Responses:Greetings,1,Yes
-MobileWebChatbot,Dialogflow,1,2,How are you?,Responses:SmallTalks,2,
-MobileWebChatbot,Dialogflow,1,3,What is my balance?,Responses:BalanceInquiry,3,
-MobileWebChatbot,Dialogflow,1,4,Savings Account,Here's your latest balance,4,
