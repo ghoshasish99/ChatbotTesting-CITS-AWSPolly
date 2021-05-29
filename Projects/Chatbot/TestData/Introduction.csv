@@ -1,0 +1,7 @@
+Scenario,Flow,Iteration,SubIteration,SayIt,Language,Gender,Service,ReceivedText,Response
+Introduction,Conversation,1,1,"Hi, whats your name?",,,,Pratica,Welcome to this Demo
+Introduction,Conversation,1,2,Who is your favourite actress?,,,,Jennifer Aniston,Does your girlfriend know about it???? Who knows!! Anyway moving on...
+Introduction,Conversation,1,3,Is Marco Smart? or is he Cool?,,,,Smart.,Wonder what he thinks of your answer!! next question..
+Introduction,Conversation,1,4,Where would you prefer to go on a holiday?,,,,Europe.,"I thought you would say Thailand! Anyway, next question.."
+Introduction,Conversation,1,5,Who would you prefer to spend time with? Marco or Adonis?,,,,Marco,"Hmmmm... I feel sorry for your girlfriend.. Okay, final question.."
+Introduction,Conversation,1,6,You think you will get a promotion this year?,,,,No.,I think so too...

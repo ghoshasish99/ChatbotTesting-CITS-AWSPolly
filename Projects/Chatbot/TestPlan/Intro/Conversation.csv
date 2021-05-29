@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,App,Generate Utterances with AWS Polly or Google,generateUtterance,Introduction:SayIt,Introduction,
+2,App,Store Utterances with Azure,storeUtterance,Introduction:ReceivedText,,
+3,App,Generate Utterances with AWS Polly or Google,generateUtterance_CITS,Introduction:ReceivedText,Introduction,
+4,App,Generate Utterances with AWS Polly or Google,generateUtterance,Introduction:Response,Introduction,

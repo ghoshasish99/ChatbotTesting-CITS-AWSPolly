@@ -6,5 +6,5 @@ Step,ObjectName,Description,Action,Input,Condition,Reference
 5,3,"Click the [<Object>] ",Click,,,AndroidCalculator
 6,2,"Click the [<Object>] ",Click,,,AndroidCalculator
 7,=,"Click the [<Object>] ",Click,,,AndroidCalculator
-8,formula,Store the [<Object>] element's text into the Runtime variable: [<Data>],storeText,%var1%,,AndroidCalculator
+8,formula,Store the [<Object>] element's text into the Runtime variable: [<Data>],storeTextinDataSheet,%var1%,,AndroidCalculator
 9,Browser,print the data [<Data>],print,%var1%,,

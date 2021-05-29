@@ -10,5 +10,8 @@
 <TestCase exeType="Executable" ref="Speech-Input"/>
 <TestCase exeType="Executable" ref="Text-Input"/>
 </Scenario>
+<Scenario ref="Intro">
+<TestCase exeType="Executable" ref="Conversation"/>
+</Scenario>
 </Folder>
 </Root>

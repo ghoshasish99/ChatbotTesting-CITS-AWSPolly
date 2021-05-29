@@ -68,6 +68,27 @@ public class GenerateUtterance extends General {
 			generateGoogleUtterance(Data, language, gender);
 
 	}
+	
+	@Action(object = ObjectType.APP, desc = "Generate Utterances with AWS Polly or Google", input = InputType.YES, condition = InputType.YES)
+	public void generateUtterance_CITS() {
+		String Sheet = Condition;
+
+		String language = userData.getData(Sheet, "Language", userData.getIteration(), userData.getSubIteration());
+		String gender = userData.getData(Sheet, "Gender", userData.getIteration(), userData.getSubIteration());
+		String service = userData.getData(Sheet, "Service", userData.getIteration(), userData.getSubIteration());
+		if(language.isEmpty())
+			language = getUserDefinedData("Language");
+		if(gender.isEmpty())
+			gender = getUserDefinedData("Gender");
+		if(service.isEmpty())
+			service = getUserDefinedData("Service");
+		
+		if (service.trim().equalsIgnoreCase("AWS"))
+			generateAWSUtterance("You said, : "+Data);
+		else
+			generateGoogleUtterance("You said, : "+Data, language, gender);
+
+	}
 
 	public void generateAWSUtterance(String utterance) {
 		try {
